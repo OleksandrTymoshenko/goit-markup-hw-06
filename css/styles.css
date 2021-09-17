@@ -335,7 +335,7 @@ ul {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  padding: 30px;
+  padding: 40px;
 }
 
 .modal-button {
@@ -389,13 +389,10 @@ color: var(--title-text-color);
 }
 
 .field-input-icon {
-  position: relative;
-  margin-bottom: 10px;
-}
-
-.field-label {
   display: flex;
   flex-direction: column;
+  position: relative;
+  margin-bottom: 10px;
 }
 
 .mark {
@@ -487,6 +484,7 @@ color: var(--title-text-color);
 display: flex;
 align-items: center;
 margin-bottom: 30px;
+justify-content: center;
 text-align: center;
 cursor: pointer;
 }
